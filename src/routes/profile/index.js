@@ -40,8 +40,8 @@ export default class Profile extends Component {
           titleAttributes={{ itemprop: "name", lang: "en" }}
           base={{ target: "_blank", href: "https://prstart_material.surge.sh/" }}
           meta={[
-            { name: "description", content: "preactjs material components" },
-            { property: "og:type", content: "preactjs" }
+            { name: "description", content: "preactjs material components profile" },
+            { property: "og:type", content: "preactjs profile" }
           ]}
         />
         <h1>Profile: {user}</h1>
